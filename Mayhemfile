@@ -1,12 +1,12 @@
 project: pathvalidate
 target: fuzz
 
-tasks:
-  # Explotablity was not working
-  - name: regression_testing
-  - name: behavior_testing
+# tasks:
+#   # Explotablity was not working
+#   - name: regression_testing
+#   - name: behavior_testing
 
-tests: null
+# tests: null
 
 cmds:
     - cmd: fuzz/fuzz.py
